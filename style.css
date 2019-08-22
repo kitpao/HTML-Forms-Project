@@ -1,0 +1,102 @@
+/**
+Reset stylesheet begining
+ */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, address, em, img, ins,
+small, strong, var, b, i, fieldset, form, label, legend, footer, header, menu,
+nav, section {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+    background-color: #ECEEF1;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,nav,
+section{
+  display:block;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+input, select {
+    vertical-align:middle;
+}
+/**
+Reset stylesheet ending
+ */
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4c4c4c;
+}
+header {
+  padding-top: 10px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 40px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 35px;
+  width: 380px;
+  text-align: center;
+}
+.intuit img{
+  max-width: 380px;
+}
+section{
+  padding: 20px 30px 20px 30px;
+  padding-left: 25px;
+  background-color: white;
+  border: 1px solid #c7c7c7;
+}
+.main_box h2{
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.main_box h3{
+  font-size: 14px;
+}
+
+form h3{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 40px;
+}
+form input{
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 80px;
+}
