@@ -4,7 +4,9 @@
     <meta charset = "utf-8">
     <meta name = "viewport" content = "width = device-width, initial scale = 1.0">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-    <link rel = "icon" href = <!-- RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR -->>
+     <!--- RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR --->
+    <link rel = "icon" href =>
+    <link rel="stylesheet" href="style.css">
     <title>Intuit Accounts - Sign Up</title>
     <link rel = "stylesheet" href = "style.css">
   </head>
@@ -12,70 +14,84 @@
   <body>
 
     <header>
-      <div class="">
-        <p></p>
-        <p></p>
+      <div class="head_title">
+        <h4>Already have an Intuit account?</h4>
+        <p>I forgot my User ID or Password</p>
       </div>
 
-      <button type="button" name="button">
-        <img src="" alt="">
-        <p></p>
-      </button>
+      <div class="right_corner">
+        <button type="button" class="sign_in_button">
+          <img src="" alt="">
+          <span class= "lock_text_img">
+                    Sign In
+                  </span>
+        </button>
+      </div>
 
     </header>
 
     <main>
-      <title>
-        <div class="">
-          <img src="" alt="">
+      <div class="intuit_title">
+        <div class="intuit">
+          <img src="images/logo1.png" alt="logo1">
         </div>
-        <div class="">
+        <!---
+        <div class="titles">
+          <img src="" alt="">
+          <span>mint</span>
           <img src="" alt="">
           <span></span>
           <img src="" alt="">
-          <span></span>
-          <img src="" alt="">
-          <span></span>
+          <span>turbotax</span>
         </div>
-
-      </title>
-
-
+        --->
+      </div>
       <section>
-        <div class="">
-          <h2></h2>
-          <h3></h3>
-          <a href="#"></a>
+        <div class="main_box">
+          <h2>Create an Intuit account</h2>
+          <h3>One account for everything Intuit, including Mint. </h3>
+          <a href="#">learn more</a>
         </div>
 
 
         <form class="" action="index.html" method="post">
-          <h3></h3>
-          <input type="text" name="" value="">
-          <h3></h3>
-          <input type="text" name="" value="">
-          <h5></h5>
-          <h3></h3>
-          <input type="text" name="" value="">
-          <img src="" alt="">
+          <h3>Email Adress</h3>
+          <input type="email" name="email" value="" required>
+          <h3>Phone (recommended)</h3>
+          <input type="phone" name="phone" value="" >
+          <h5>Standard call, messaging or data rates may apply.</h5>
+          <h3>Password</h3>
+          <input type="password" name="password" value="" required>
+          <div class="submission">
+            <input type="submit" name="submit_button" value="Create Account" method="post" action="">
+          </div>
 
-          <input type="text" name="" value="">
-          <img src="" alt="">
+
         </form>
 
-        <div class="">
-          <h6></h6>
+        <div class="bottom_text">
+          <h6>By clicking Create account, you agree to our
+              Terms and have read and acknowledge our Privacy Statement.
+          </h6>
         </div>
 
-        <div class="">
-          <p></p>
+        <div class="internal_footer">
+          <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
         </div>
 
       </section>
 
     </main>
 
-    <footer><p></p><p></p><p></p></footer>
+    <footer>
+      <p>Legal Privacy Security</p>
+      <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
+        ProConnect and Mint are registered trademarks of Intuit Inc.
+      </p>
+      <p>Terms and conditions, features, support, pricing,
+        and service options subject to change without notice.
+      </p>
+    </footer>
 
 
   </body>
