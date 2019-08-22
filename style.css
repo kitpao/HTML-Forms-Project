@@ -42,6 +42,10 @@ body {
   font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #4c4c4c;
 }
+a{
+  text-decoration:none;
+  color: hsla(207, 59%, 55%, 1.00);
+}
 header {
   padding-top: 10px;
   padding-right: 30px;
@@ -49,6 +53,8 @@ header {
   justify-content: flex-end;
   width: 100vw;
   height: 40px;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 main{
@@ -60,40 +66,73 @@ main{
   text-align: center;
 }
 .intuit img{
-  max-width: 380px;
+  max-width: 330px;
 }
 section{
-  padding: 20px 30px 20px 30px;
+  padding: 30px 30px 20px 30px;
   padding-left: 25px;
   background-color: white;
   border: 1px solid #c7c7c7;
+  border-bottom: none;
 }
 .main_box h2{
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 300;
   padding-bottom: 20px;
 }
 .main_box h3{
   font-size: 14px;
+  font-weight: 100;
+  line-height: 1.5;
 }
 
 form h3{
   font-size: 14px;
   font-weight: 400;
   text-align: left;
-  padding-top: 40px;
+  padding-top: 30px;
+}
+form h5{
+  font-size: 10px;
+  text-align: left;
+  font-weight: 100;
 }
 form input{
+  height: 30px;
   width: 100%;
   margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border: 1px solid hsla(106, 0%, 78%, 1.00);
+  border-radius: 4px;
+  color: #c2c2c2;
 }
 
-
-
-
-
-
-
+input:focus {
+  border: 1px solid hsla(205, 100%, 40%, 1.00);
+  box-shadow: 0px 0px 3px 0px hsla(196, 100%, 70%, 1.00);
+}
+.bottom_text{
+  padding-top: 20px;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 2;
+  color: #757575;
+}
+.internal_footer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 359px;
+  text-align: center;
+  background-color:transparent;
+  font-size: 10px;
+  color:#4c4c4c;
+  border: 1px solid #c7c7c7;
+  border-top: none;
+}
 footer {
   display: flex;
   justify-content: center;
