@@ -123,13 +123,13 @@ input:focus {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 22px;
+  padding-bottom: 20px;
   width: 359px;
   text-align: center;
   background-color:transparent;
   font-size: 10px;
-  color:#4c4c4c;
+  color:#8d9096;
   border: 1px solid #c7c7c7;
   border-top: none;
 }
