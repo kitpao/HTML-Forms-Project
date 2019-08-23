@@ -4,31 +4,35 @@ Reset stylesheet begining
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, address, em, img, ins,
 small, strong, var, b, i, fieldset, form, label, legend, footer, header, menu,
 nav, section, li, ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
+
 body {
-    line-height: 1;
-    background-color: #eceef1;
+  line-height: 1;
+  background-color: #eceef1;
 }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu,nav,
 section {
   display: block;
 }
+
 a {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
+
 input, select {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /**
@@ -44,10 +48,12 @@ body {
   font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #4c4c4c;
 }
+
 a {
   text-decoration: none;
-  color: hsla(207, 59%, 55%, 1.00);
+  color: #4993d0
 }
+
 header {
   padding-top: 10px;
   padding-right: 30px;
@@ -58,16 +64,17 @@ header {
   line-height: 1.5;
   font-size: 12px;
 }
+
 header button {
   height: 34px;
   width: 100px;
-  margin-top: 0px;
   margin-left: 10px;
   border: 1px solid #4c4c4c;
   border-radius: 4px;
   color: #c2c2c2;
   background-color: #0077c5;
 }
+
 .lock_text_img {
   font-size: 13px;
   font-weight: 400;
@@ -83,9 +90,11 @@ main {
   width: 380px;
   text-align: center;
 }
+
 .intuit img {
   max-width: 330px;
 }
+
 .principal {
   padding: 30px 30px 20px 30px;
   background-color: white;
@@ -93,11 +102,13 @@ main {
   border-bottom: none;
   width: inherit;
 }
+
 .main_box h2 {
   font-size: 24px;
   font-weight: 300;
   padding-bottom: 20px;
 }
+
 .main_box h3 {
   font-size: 14px;
   font-weight: 100;
@@ -110,18 +121,20 @@ form h3 {
   text-align: left;
   padding-top: 30px;
 }
+
 form h5 {
   font-size: 10px;
   text-align: left;
   font-weight: 100;
 }
+
 form input {
   height: 30px;
   width: 95%;
   margin-top: 10px;
   padding-left: 10px;
   margin-bottom: 10px;
-  border: 1px solid hsla(106, 0%, 78%, 1.00);
+  border: 1px solid #c7c7c7;
   border-radius: 4px;
   color: #c2c2c2;
 }
@@ -136,6 +149,7 @@ form input {
   color: #c2c2c2;
   background-color: #0077c5;
 }
+
 .lock {
   height: 1em;
   width: 0.8em;
@@ -147,6 +161,7 @@ form input {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .submit_text {
   font-size: 16px;
   font-weight: 400;
@@ -155,9 +170,10 @@ form input {
 }
 
 input:focus {
-  border: 1px solid hsla(205, 100%, 40%, 1.00);
-  box-shadow: 0px 0px 3px 0px hsla(196, 100%, 70%, 1.00);
+  border: 1px solid #0077cc;
+  box-shadow: 1px 1px 1px 1px #66d6ff;
 }
+
 .bottom_text {
   padding-top: 20px;
   padding-bottom: 15px;
@@ -184,12 +200,14 @@ footer {
   padding-top: 15px;
   padding-bottom: 25px;
 }
+
 footer p {
   text-align: center;
   font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
   line-height: 1.5;
   font-size: 12px;
 }
+
 li {
   display: flex;
   width: 100%;
@@ -197,6 +215,7 @@ li {
   justify-content: center;
   align-items: baseline;
 }
+
 li a {
   display: flex;
   justify-content: space-between;
