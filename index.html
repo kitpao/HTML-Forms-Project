@@ -21,10 +21,10 @@
 
       <div class="right_corner">
         <button type="button" class="sign_in_button">
-          <img src="" alt="">
+          <span class = lock ></span>
           <span class= "lock_text_img">
                     Sign In
-                  </span>
+          </span>
         </button>
       </div>
 
@@ -35,18 +35,9 @@
         <div class="intuit">
           <img src="images/logo.png" alt="logo">
         </div>
-        <!---
-        <div class="titles">
-          <img src="" alt="">
-          <span>mint</span>
-          <img src="" alt="">
-          <span></span>
-          <img src="" alt="">
-          <span>turbotax</span>
-        </div>
-        --->
       </div>
-      <section>
+
+      <section class="principal">
         <div class="main_box">
           <h2>Create an Intuit account</h2>
           <h3>One account for everything Intuit, including Mint. <br>
@@ -64,7 +55,10 @@
           <h3>Password</h3>
           <input type="password" name="password" value="" required>
           <div class="submission">
-            <input type="submit" name="submit_button" value="Create Account" method="post" action="">
+            <button type="submit" name="submit_button" value="Create Account" method="post" action="">
+              <span class=lock></span>
+              <span class=submit_text>Create Account</span>
+            </button>
           </div>
 
         </form>
@@ -76,14 +70,20 @@
         </div>
 
       </section>
-      <div class="internal_footer">
+      <section class="internal_footer">
         <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
-      </div>
+      </section>
 
     </main>
 
     <footer>
-      <p>Legal Privacy Security</p>
+      <p>
+        <ul>
+          <li>
+            <a href="#">Legal</a><a href="#">Privacy</a><a href="#">Security</a>
+          </li>
+        </ul>
+      </p>
       <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
         ProConnect and Mint are registered trademarks of Intuit Inc.
       </p>
