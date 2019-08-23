@@ -17,7 +17,7 @@ body {
     background-color: #ECEEF1;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu,nav,
-section{
+section {
   display:block;
 }
 a {
@@ -42,7 +42,7 @@ body {
   font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #4c4c4c;
 }
-a{
+a {
   text-decoration:none;
   color: hsla(207, 59%, 55%, 1.00);
 }
@@ -56,7 +56,7 @@ header {
   font-size: 12px;
   line-height: 1.5;
 }
-header button{
+header button {
   height: 34px;
   width: 100px;
   margin-top: 0px;
@@ -73,7 +73,7 @@ header button{
   font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-main{
+main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -81,39 +81,39 @@ main{
   width: 380px;
   text-align: center;
 }
-.intuit img{
+.intuit img {
   max-width: 330px;
 }
-.principal{
+.principal {
   padding: 30px 30px 20px 30px;
   background-color: white;
   border: 1px solid #c7c7c7;
   border-bottom: none;
   width: inherit;
 }
-.main_box h2{
+.main_box h2 {
   font-size: 24px;
   font-weight: 300;
   padding-bottom: 20px;
 }
-.main_box h3{
+.main_box h3 {
   font-size: 14px;
   font-weight: 100;
   line-height: 1.5;
 }
 
-form h3{
+form h3 {
   font-size: 14px;
   font-weight: 400;
   text-align: left;
   padding-top: 30px;
 }
-form h5{
+form h5 {
   font-size: 10px;
   text-align: left;
   font-weight: 100;
 }
-form input{
+form input {
   height: 30px;
   width: 95%;
   margin-top: 10px;
@@ -124,7 +124,7 @@ form input{
   color: #c2c2c2;
 }
 
-.submission button{
+.submission button {
   height: 44px;
   width: 100%;
   margin-top: 20px;
@@ -134,7 +134,7 @@ form input{
   color: #c2c2c2;
   background-color: #0077C5;
 }
-.lock{
+.lock {
   height: 1em;
   width: .8em;
   margin-top: 2px;
@@ -145,7 +145,7 @@ form input{
   background-size: contain;
   background-repeat: no-repeat;
 }
-.submit_text{
+.submit_text {
   font-size: 16px;
   font-weight: 400;
   color: #FFF;
@@ -156,7 +156,7 @@ input:focus {
   border: 1px solid hsla(205, 100%, 40%, 1.00);
   box-shadow: 0px 0px 3px 0px hsla(196, 100%, 70%, 1.00);
 }
-.bottom_text{
+.bottom_text {
   padding-top: 20px;
   padding-bottom: 15px;
   font-size: 12px;
@@ -165,7 +165,7 @@ input:focus {
   color: #757575;
 }
 
-.internal_footer{
+.internal_footer {
   padding: 22px 30px 20px 30px;
   text-align: center;
   background-color:transparent;
@@ -182,14 +182,14 @@ footer {
   padding-top: 15px;
   padding-bottom: 25px;
 }
-footer p{
+footer p {
   text-align: center;
   font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
   line-height: 1.5;
   font-size: 12px;
 }
 
-li{
+li {
   display: flex;
   width: 100%;
   height: 35px;
