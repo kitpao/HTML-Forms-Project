@@ -1,9 +1,28 @@
 /**
 Reset stylesheet begining
  */
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, address, em, img, ins,
-small, strong, var, b, i, fieldset, form, label, legend, footer, header, menu,
-nav, section, li, ul {
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+i,
+form,
+label,
+legend,
+footer,
+header,
+menu,
+nav,
+section,
+li {
   margin: 0;
   padding: 0;
   border: 0;
@@ -18,7 +37,10 @@ body {
   background-color: #eceef1;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu,nav,
+footer,
+header,
+menu,
+nav,
 section {
   display: block;
 }
@@ -31,7 +53,8 @@ a {
   background: transparent;
 }
 
-input, select {
+input,
+select {
   vertical-align: middle;
 }
 
@@ -51,7 +74,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #4993d0
+  color: #4993d0;
 }
 
 header {
@@ -109,17 +132,17 @@ main {
   padding-bottom: 20px;
 }
 
-.main_box h3 {
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 1.5;
-}
-
 form h3 {
   font-size: 14px;
   font-weight: 400;
   text-align: left;
   padding-top: 30px;
+}
+
+section .main_box h3 {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.5;
 }
 
 form h5 {
@@ -170,7 +193,7 @@ form input {
 }
 
 input:focus {
-  border: 1px solid #0077cc;
+  border: 1px solid #07c;
   box-shadow: 1px 1px 1px 1px #66d6ff;
 }
 
