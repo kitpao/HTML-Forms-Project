@@ -4,35 +4,37 @@ Reset stylesheet begining
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, address, em, img, ins,
 small, strong, var, b, i, fieldset, form, label, legend, footer, header, menu,
 nav, section, li, ul {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 body {
-    line-height:1;
-    background-color: #ECEEF1;
+    line-height: 1;
+    background-color: #eceef1;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu,nav,
 section {
-  display:block;
+  display: block;
 }
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 input, select {
-    vertical-align:middle;
+    vertical-align: middle;
 }
+
 /**
 Reset stylesheet ending
  */
+
 body {
   display: flex;
   justify-content: center;
@@ -43,7 +45,7 @@ body {
   color: #4c4c4c;
 }
 a {
-  text-decoration:none;
+  text-decoration: none;
   color: hsla(207, 59%, 55%, 1.00);
 }
 header {
@@ -53,8 +55,8 @@ header {
   justify-content: flex-end;
   width: 100vw;
   height: 40px;
-  font-size: 12px;
   line-height: 1.5;
+  font-size: 12px;
 }
 header button {
   height: 34px;
@@ -64,12 +66,12 @@ header button {
   border: 1px solid #4c4c4c;
   border-radius: 4px;
   color: #c2c2c2;
-  background-color: #0077C5;
+  background-color: #0077c5;
 }
-.lock_text_img{
+.lock_text_img {
   font-size: 13px;
   font-weight: 400;
-  color: #FFF;
+  color: #fff;
   font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -129,14 +131,14 @@ form input {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: 1px solid #0077C5;
+  border: 1px solid #0077c5;
   border-radius: 4px;
   color: #c2c2c2;
-  background-color: #0077C5;
+  background-color: #0077c5;
 }
 .lock {
   height: 1em;
-  width: .8em;
+  width: 0.8em;
   margin-top: 2px;
   margin-right: 4px;
   vertical-align: text-top;
@@ -148,7 +150,7 @@ form input {
 .submit_text {
   font-size: 16px;
   font-weight: 400;
-  color: #FFF;
+  color: #fff;
   font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -168,9 +170,9 @@ input:focus {
 .internal_footer {
   padding: 22px 30px 20px 30px;
   text-align: center;
-  background-color:transparent;
+  background-color: transparent;
   font-size: 10px;
-  color:#8d9096;
+  color: #8d9096;
   border: 1px solid #c7c7c7;
   border-top: none;
   width: inherit;
@@ -188,7 +190,6 @@ footer p {
   line-height: 1.5;
   font-size: 12px;
 }
-
 li {
   display: flex;
   width: 100%;
