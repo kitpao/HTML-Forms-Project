@@ -4,7 +4,8 @@
     <meta charset = "utf-8">
     <meta name = "viewport" content = "width = device-width, initial scale = 1.0">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-    <link rel = "icon" href = <!-- RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR -->>
+    <link rel = "icon" href = "images/title.png">
+    <link rel="stylesheet" href="style.css">
     <title>Intuit Accounts - Sign Up</title>
     <link rel = "stylesheet" href = "style.css">
   </head>
@@ -12,70 +13,81 @@
   <body>
 
     <header>
-      <div class="">
-        <p></p>
-        <p></p>
+      <div class="head_title">
+        <p>Already have an Intuit account?<br></p>
+        <a href="#">I forgot my User ID or Password</a>
       </div>
 
-      <button type="button" name="button">
-        <img src="" alt="">
-        <p></p>
-      </button>
+      <div class="right_corner">
+        <button type="button" class="sign_in_button">
+          <span class = lock ></span>
+          <span class= "lock_text_img">
+                    Sign In
+          </span>
+        </button>
+      </div>
 
     </header>
 
     <main>
-      <title>
-        <div class="">
-          <img src="" alt="">
+      <div class="intuit_title">
+        <div class="intuit">
+          <img src="images/logo.png" alt="logo">
         </div>
-        <div class="">
-          <img src="" alt="">
-          <span></span>
-          <img src="" alt="">
-          <span></span>
-          <img src="" alt="">
-          <span></span>
-        </div>
+      </div>
 
-      </title>
-
-
-      <section>
-        <div class="">
-          <h2></h2>
-          <h3></h3>
-          <a href="#"></a>
+      <section class="principal">
+        <div class="main_box">
+          <h2>Create an Intuit account</h2>
+          <h3>One account for everything Intuit, including Mint. <br>
+            <a href="#">Learn more</a>
+          </h3>
         </div>
 
 
         <form class="" action="index.html" method="post">
-          <h3></h3>
-          <input type="text" name="" value="">
-          <h3></h3>
-          <input type="text" name="" value="">
-          <h5></h5>
-          <h3></h3>
-          <input type="text" name="" value="">
-          <img src="" alt="">
+          <label for="email">Email adress</label>
+          <input type="email" name="email" value="" placeholder="You'll verify this later" required>
+          <label for "phone">Phone (recommended)</label>
+          <input type="tel" name="phone" value="" placeholder="Helps with lost passwords and security" >
+          <h5>Standard call, messaging or data rates may apply.</h5>
+          <label for="password">Password</label>
+          <input type="password" name="password" value="" placeholder="Don't reuse passwords" required>
+          <div class="submission">
+            <button type="submit" name="submit_button" value="Create Account">
+              <span class=lock></span>
+              <span class=submit_text>Create Account</span>
+            </button>
+          </div>
 
-          <input type="text" name="" value="">
-          <img src="" alt="">
         </form>
 
-        <div class="">
-          <h6></h6>
+        <div class="bottom_text">
+          <i>By clicking Create account, you agree to our<br>
+              <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy<br> Statement.</a>
+          </i>
         </div>
 
-        <div class="">
-          <p></p>
-        </div>
-
+      </section>
+      <section class="internal_footer">
+        <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
       </section>
 
     </main>
 
-    <footer><p></p><p></p><p></p></footer>
+    <footer>
+        <ul>
+          <li>
+            <a href="#">Legal</a><a href="#">Privacy</a><a href="#">Security</a>
+          </li>
+        </ul>
+      <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
+        ProConnect and Mint are registered trademarks of Intuit Inc.
+      </p>
+      <p>Terms and conditions, features, support, pricing,
+        and service options subject to change without notice.
+      </p>
+    </footer>
 
 
   </body>
