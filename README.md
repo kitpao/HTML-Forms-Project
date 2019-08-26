@@ -13,7 +13,9 @@ Skills to use and requirements:
 Use forms to fill the required data from the user, this is:
 
 sign up: email.
+
 sign up: phone-number.
+
 sign up: password.
 
 Specifying the type of data required
