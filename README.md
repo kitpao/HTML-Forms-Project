@@ -1,5 +1,8 @@
 # HTML-Forms-Project
-Clone project for mint sign up page using forms in HTML and CSS
+Clone project for mint sign up page using forms in HTML and CSS.
+
+If you want to preview the project use this link:
+https://rawcdn.githack.com/kitpao/HTML-Forms-Project/3d197c55d2a26aeac7aef5f910e4a585cc3b20cb/index.html
 
 As Microverse students we intend to recreate as good as possible the Mint's sign up page, requesting all the required data to the user and save for further processing.
 
